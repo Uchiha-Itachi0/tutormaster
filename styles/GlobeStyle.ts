@@ -30,12 +30,17 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  background: #006EA9;
+  color: #FFF;
 	line-height: 1;
     min-height: 100vh;
   font-family: 'Blinker', sans-serif;;
 }
 ol, ul {
 	list-style: none;
+}
+a{
+    text-decoration: none;
 }
 blockquote, q {
 	quotes: none;

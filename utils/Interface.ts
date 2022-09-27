@@ -8,4 +8,9 @@ interface HeadingStyleInterface {
     LINE_HEIGHT?: string;
 }
 
-export type { HeadingInterface, HeadingStyleInterface };
+interface LinkButtonInterface {
+    LINK: string;
+    TEXT?: string;
+}
+
+export type { HeadingInterface, HeadingStyleInterface, LinkButtonInterface };
