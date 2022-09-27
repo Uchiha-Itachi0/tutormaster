@@ -19,7 +19,7 @@ const LinkButtonStyle = styled.a`
     position: absolute;
     bottom: 0;
     width: 0;
-    height: 10%;
+    height: 5%;
     background: #fff;
     transition: width .3s;
 

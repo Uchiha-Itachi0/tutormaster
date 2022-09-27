@@ -13,4 +13,13 @@ interface LinkButtonInterface {
     TEXT?: string;
 }
 
-export type { HeadingInterface, HeadingStyleInterface, LinkButtonInterface };
+interface ButtonInterface {
+    TEXT?: string;
+}
+
+export type {
+    HeadingInterface,
+    HeadingStyleInterface,
+    LinkButtonInterface,
+    ButtonInterface
+};

@@ -2,8 +2,19 @@ import Next, { NextPage } from "next";
 import styled from "styled-components";
 import Heading from "./Heading";
 import LinkButton from "./LinkButton";
+import Button from "./Button";
 
-const NavbarStyle = styled.nav``;
+const NavbarStyle = styled.nav`
+  padding: 2em 4em;
+  display: flex;
+  justify-content: space-between;
+  
+  .navbar_link_container{
+    display: flex;
+    align-items: center;
+    gap: 6em;
+  }
+`;
 
 
 const Navbar: NextPage = () => {
@@ -20,6 +31,7 @@ const Navbar: NextPage = () => {
                     TEXT = "Home"/>
                 <LinkButton LINK="#" TEXT = "Trainings"/>
                 <LinkButton LINK="#" TEXT = "About"/>
+                <Button TEXT = "Login"/>
             </div>
         </NavbarStyle>
     )
